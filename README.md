@@ -3,9 +3,9 @@ Nagios plugin _check_available_memory_
 
  - provides a better estimate of "free" memory than standard plugin
  - uses the kernel's "MemAvailable" metric
- - degrades gracefully to less accurate metrics if this isn't present
-    (1st choice) MemAvailable
-    (2nd choice) MemFree + Buffers + Cached + SReclaimable
+ - degrades gracefully to less accurate metrics if this isn't present<br>
+    (1st choice) MemAvailable<br>
+    (2nd choice) MemFree + Buffers + Cached + SReclaimable<br>
     (3rd choice) MemFree + Buffers + Cached
 
 Usage
