@@ -12,6 +12,7 @@ Usage
 -----
 
 - standard Nagios parameters are used for _WARNING_/_CRITICAL_ limits, but in this case we expect to be triggering on a low value not a high value, so to warn at 25% use option "-w 25:" (note the trailing colon)
+
  - both verbose "-v" and very verbose "-vv" return more detail
  
 - Warn at 25%, critical at 10%<br>
