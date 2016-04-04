@@ -21,3 +21,9 @@ Usage
 - Online help<br>
 `$ ./check_available_memory.pl -h`
 
+
+Licence
+-------
+
+See attached LICENCE.txt
+
